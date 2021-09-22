@@ -1,5 +1,5 @@
 ## MyWeatherApp
-Application de météo qui utilise l'api OpenWeather et l'api IP-APi.com
+Application de météo qui utilise l'api OpenWeather et l'api Abstract API
 --------------
 ## langages
 - HTML 5/CSS3

@@ -34,7 +34,7 @@ if (navigator.geolocation) {
 } 
 if( navigator.geolocation.getCurrentPosition(getPosition)==undefined){
     function getIplocation(){
-        window.fetch(`http://ip-api.com/json/`)
+        window.fetch(`https://ipgeolocation.abstractapi.com/v1/?api_key=aee7ebb16b4e43c1b96f1ef014a3b811`)
         .then(response=> response.json())
         .then(responseJson => {
            localStorage.setItem('city',JSON.stringify(responseJson.city))
